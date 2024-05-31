@@ -40,10 +40,10 @@ jobs:
           smtp-server: smtp.gmail.com
           smtp-port: 465
           smtp-secure: true
-          from-email: cloudsystemen2024@gmail.com
-          to-email: vandenkieboom1996@gmail.com
-          username: cloudsystemen2024@gmail.com
-          password: iofjezWFR83FDSd
+          from-email: vandenkieboom1996@gmail.com
+          to-email: vandevkieboom@gmail.com
+          username: vandenkieboom1996@gmail.com
+          password: Kaj21092002_036059940
           subject: opdracht actions
           body: This is a test email sent from GitHub Actions.
           html: |
