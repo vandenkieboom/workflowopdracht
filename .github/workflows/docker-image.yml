@@ -27,8 +27,8 @@ jobs:
         smtp-secure: true
         from-email: cloudsystemen2024@gmail.com
         to-email: vandenkieboom1996@gmail.com
-        username: cloudsystemen2024@gmail.com
-        password: iofjezWFR83FDSd
+        username: ${{ secrets.USER_EMAIL }}
+        password: ${{ secrets.USER_PASSWORD }}
         subject: oefening
         body: This is a test email sent from GitHub Actions.
         html: |
