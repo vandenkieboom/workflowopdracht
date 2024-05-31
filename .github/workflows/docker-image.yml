@@ -32,8 +32,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: vandenkieboom1996/actions:latest
 
       - name: send email
         uses: hilarion5/send-mail@v1
