@@ -39,11 +39,10 @@ jobs:
         with:
           smtp-server: smtp.freesmtpservers.com
           smtp-port: 25
-          auth: none
           smtp-secure: false
           from-email: vandenkieboom1996@gmail.com
           to-email: vandevkieboom@gmail.com
-          subject: opdracht actions
+          subject: opdracht actions zonder login
           body: This is a test email sent from GitHub Actions.
           html: |
             <h1>This is a test email</h1>
