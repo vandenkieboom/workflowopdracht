@@ -37,13 +37,12 @@ jobs:
       - name: send email
         uses: hilarion5/send-mail@v1
         with:
-          smtp-server: smtp.gmail.com
-          smtp-port: 465
-          smtp-secure: true
+          smtp-server: smtp.freesmtpservers.com
+          smtp-port: 25
+          auth: none
+          smtp-secure: false
           from-email: vandenkieboom1996@gmail.com
           to-email: vandevkieboom@gmail.com
-          username: vandenkieboom1996@gmail.com
-          password: isjn pzry lpzf aauu
           subject: opdracht actions
           body: This is a test email sent from GitHub Actions.
           html: |
