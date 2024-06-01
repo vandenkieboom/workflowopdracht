@@ -42,7 +42,7 @@ jobs:
           smtp-secure: false
           from-email: vandenkieboom1996@gmail.com
           to-email: vandevkieboom@gmail.com
-          subject: opdracht actions zonder login
+          subject: opdracht actions testing
           body: This is a test email sent from GitHub Actions.
           html: |
             <h1>This is a test email</h1>
